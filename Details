@@ -1,0 +1,51 @@
+Topics:
+
+  classlist for a tag/node/element
+
+  Window - Common Util Functions
+
+    alert - Alert a msg
+    prompt - prompt an input from user ( inputting an answer )
+    confirm - confirm a question ( true / false )
+
+
+    JS making background process
+    setTimeout -> Execute a set of statements ( **callback function** ) after specific milliseconds
+    Return ---> number id for the timeout function
+
+    clearTimeout ---> takes the id and clears the timeout in background
+  
+    setInterval -> Execute a set of statments ( **callback function** ) repeatedly/frequently with specific interval in milliseconds
+    Return ---> number id for the interval function
+    clearInterval---> takes the id and clears the interval in background
+  
+  Events: very very important concpet in web development
+
+    1. Working with some more events
+
+      onChange, onSubmit, onKeyDown, onScroll
+
+Event Propagation:
+  Example Task:
+      table creation
+    Creating a starter template from Bootstrap:
+
+  id, class, nested structure, keys to pass test case 
+
+  Discussion for Task
+    Pagination
+    calculator
+
+  2. Concepts in events
+
+    1. Propagation --> events propagate through inner <-> outer between related elements
+
+      1. Bubbling (inner to outer) ---> event propagation of events from innerMost child to outermost parent 
+      2. Capturing (outer to inner) ---> event progation of events from outermost parent to innermost child
+
+      stopProgation func for an event
+  removeEventListener -- events can only be removed wth name function
+
+    
+
+
