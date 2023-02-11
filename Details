@@ -46,6 +46,8 @@ Event Propagation:
       stopProgation func for an event
   removeEventListener -- events can only be removed wth name function
 
+  options in eventListener
+
     
 
 
